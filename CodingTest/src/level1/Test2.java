@@ -5,7 +5,7 @@ public class Test2 {
 	public int solution(int n) {
 		int answer = 0;
 		for (int i = 1; i <= n; i++) {
-			if (n % i == 0) {
+			if (n % i == 0) {	//n % i == 0일때 i는 n의 약수이다.
 				answer += i;
 			}
 		}

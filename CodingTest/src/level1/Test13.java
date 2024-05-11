@@ -12,7 +12,7 @@ public class Test13 {
 		public long solution(long n) {
 			String num = "" + n; // 정수를 문자열로 변환
 			String[] arr = num.split(""); // split를 사용하여 한자리씩 배열에 넣는다.
-			StringBuffer sb = new StringBuffer();
+			StringBuilder sb = new StringBuilder();
 			Arrays.sort(arr, Comparator.reverseOrder()); // desc로 정렬한다.
 			for (String data : arr) {
 				sb.append(data); // 배열을 문자열로 변환
